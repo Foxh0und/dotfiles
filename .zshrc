@@ -20,7 +20,7 @@ alias vi="vim"
 
 alias ..="cd .."
 alias mkdir='mkdir -p'
-alias musb='sudo mount /dev/sdb'
+alias musb='sudo mount /dev/sd'
 alias ls="ls -la"
 alias rm="rm -r"
 
