@@ -1,0 +1,36 @@
+env:
+  browser: true
+  es6: true
+extends: 
+  - "eslint:recommended"
+  - "plugin:vue/essential"
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+rules:
+  indent: 
+    - warn
+    - tab
+  quotes: 
+    - error
+    - double
+  semi: 
+    - error
+    - always
+  array-bracket-spacing: 
+    - error 
+    - always
+  brace-style: 
+    - error
+    - stroustrup
+  camelcase: 
+    - error 
+    - properties: always
+  space-in-parens: 
+    - warn 
+    - always
+  space-before-function-paren: 
+    - warn
+    - always
+  no-console:
+    - off
