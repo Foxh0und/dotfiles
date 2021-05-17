@@ -1,6 +1,6 @@
 export ZSH=/home/amiritis/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 export UPDATE_ZSH_DAYS=7
 
@@ -22,9 +22,3 @@ alias ..="cd .."
 alias mkdir='mkdir -p'
 alias musb='sudo mount /dev/sd'
 alias ls="ls -la"
-alias rm="rm -r"
-
-alias gita="git add -A"
-alias gitc="git commit -m"
-alias gitpu="git push"
-alias gitpl="git pull"
