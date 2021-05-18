@@ -11,14 +11,13 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
+source /usr/share/fzf/shell/key-bindings.zsh
 
 # Alias
 
 alias zshconfig="vim ~/.zshrc"
 alias vi="vim"
-
+alias musb='sudo mount -t vfat /dev/sd'
+alias ls='ls -g --group-directories-first'
 alias ..="cd .."
 alias mkdir='mkdir -p'
-alias musb='sudo mount /dev/sd'
-alias ls="ls -la"
