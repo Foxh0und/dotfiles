@@ -1,31 +1,29 @@
 ## Initial Update
 sudo dnf -y update kernel*
-sudo dnf install gcc kernel-devel kernel-headers dkms make bzip2 perl
 
 ## Remove unwatnted applications
 sudo dnf -y remove libreoffice* cheese shotwell* gnome-maps* gnome-weather* totem rhythmbox* gnome-clocks* gnome-calendar* gnome-contacts* gnome-boxes* nautilus simple-scan gnome-software gnome-logs gedit gnome-todo gnome-characters evolution-help gnome-calculator gnome-disk-utility
 
 ## Install Require Programs
-sudo dnf -y install neofetch gnome-tweak-tool glibc* thunderbird glib2-devel ssh
+sudo dnf -y install neofetch gnome-tweak-tool
 
 ## Full Path Nautilus
 gsettings set org.gnome.nautilus.preferences always-use-location-entry true
 
-## Atom
-wget https://atom.io/download/rpm -O atom.rpm
-sudo dnf -y install ./atom.rpm
-rm atom.rpm
 
 ## Z Shell
 sudo dnf -y install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo chsh -s /usr/bin/zsh
 
-## Spider Oak One(https://spideroak.com/one/get)
+## Tresorit
+https://support.tresorit.com/hc/en-us/articles/216114157-Tresorit-for-Linux-FAQ
+
+sudo dnf install tilix
 
 
 ## Firefox
-### Lastpass
+### Bitwarden
 ### Rearrange and hide unused menu items
 ### UBlock Originls
 
@@ -49,6 +47,5 @@ sudo dnf -y install numix-icon-theme-circle
 sudo dnf copr enable tcg/themes
 sudo dnf install la-capitaine-cursor-theme
 
-### Gnome Terminal Blue Colours and Name
 ### Dash to Dock
 
